@@ -22,7 +22,7 @@ def test_add() -> None:
     a, b = 1, 1
 
     # When
-    result = test_add(a, b)
+    result = add(a, b)
 
     # Then
     assert result == 2
